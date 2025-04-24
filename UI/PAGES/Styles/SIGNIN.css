@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(332deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.797) 0%), url("/UI/Images/BG_IMAGE.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.titillium-web-bold {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.MainContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-box {
+    width: 350px;
+    padding: 20px;
+    background: #ffffff;
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0.726) 0%, rgba(115, 115, 115, 1) 100%);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+.Login {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    text-shadow: rgba(0, 0, 0, 0.493) 0 0 1px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #1E1E1E;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px; /* Increased padding for better spacing */
+    margin-bottom: 20px; /* Added more margin for better separation */
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+/* Buttons and links */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1276d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #3d8bd9;
+}
+
+.forgot-password,
+.Client {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1e3a8a;
+    font-size: 14px;
+}
+
+.forgot-password:hover,
+.Client:hover {
+    text-decoration: underline;
+}
