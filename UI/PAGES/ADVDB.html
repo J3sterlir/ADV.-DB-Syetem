@@ -1,52 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/UI/PAGES/Styles/ADVDB.css">
-    </head>
-    <body>
-        <nav class="menu-container">
-            <!-- burger menu -->
-            <input type="checkbox" aria-label="Toggle menu" />
-            <span></span>
-            <span></span>
-            <span></span>
-          
-            <!-- logo -->
-            <a href="#" class="menu-logo">
-              <img src="https://cdn-icons-png.flaticon.com/512/4212/4212284.png" alt="My Awesome Website"/>
-            </a>
-          
-            <!-- menu items -->
-            <div class="menu">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Client Management System</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Styles/ADVDB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="./JS/sidebar.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+      <div class="top_navbar">
+          <div class="hamburger">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+          <div class="top_menu">
+              <div class="logo">JMCYK Client Management System</div>
               <ul>
-                <li>
-                  <a href="#">
-                    JMCYK
-                  </a>
-                </li>
+                  <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+                  <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
               </ul>
-              <ul>
-                <li>
-                  <a href="#">
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a href="">
-                    Profile
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-          
-
-        <script src="" async defer></script>
-    </body>
+          </div>
+      </div>
+      
+      <div class="sidebar">
+          <ul>
+              <li><a href="#" class="active" data-content="employee-profile">
+                  <i class="fa-solid fa-user" aria-hidden="true"></i>
+                  <span class="title">Employee Profile</span>
+              </a></li>
+              <li><a href="#" data-content="tax-return">
+                  <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>
+                  <span class="title">File Tax Return</span>
+              </a></li>
+              <li><a href="#" data-content="tasks">
+                  <i class="fa-solid fa-clipboard" aria-hidden="true"></i>
+                  <span class="title">Tasks</span>
+              </a></li>
+              <li><a href="#" data-content="clients">
+                  <i class="fa-solid fa-address-book" aria-hidden="true"></i>
+                  <span class="title">Clients</span>
+              </a></li>
+              <li><a href="#" data-content="about">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                  <span class="title">About</span>
+              </a></li>
+              <li><a href="#" data-content="settings">
+                  <i class="fa-solid fa-gear" aria-hidden="true"></i>
+                  <span class="title">Settings</span>
+              </a></li>
+          </ul>
+      </div>
+    
+      <div class="main_container">
+          <div class="item" id="content">
+              <h1>Welcome to JMCYK Client Management System</h1>
+              <p>This is a property of JMCYK Bookkeeping Services.</p>
+          </div>
+      </div>
+  </div>
+</body>
 </html>
