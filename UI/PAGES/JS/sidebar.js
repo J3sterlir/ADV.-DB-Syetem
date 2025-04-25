@@ -31,10 +31,37 @@ document.addEventListener('DOMContentLoaded', function() {
                     <p>Tax returns will be filed directly to BIR.</p>
                 `;
                 break;
-            case 'tasks':
+            case 'Status-Tracker':
                 content = `
-                    <h1>Tasks</h1>
-                    <p>Details about tasks will go here.</p>
+                    <div class="Status-Tracker">
+                    <h1>Status Tracker</h1>
+                    </div>
+                    
+
+                    <div class="To-file"> <h3>To File</h3> </div>
+
+                    <div id="TAXFILE">
+                    
+                    <p>Tax Retrun #1: </p>
+                    <P><b>Juan Dela Cruz</b></P>
+
+                    <div id="Start"><p>START</p></div>
+                    
+                    </div>
+
+                    <div class="To-file"> <h3>Processing</h3> </div>
+
+                    <div id="TAXFILE">
+                    
+                        <p>Tax Retrun #2: </p>
+                        <P><b>Jacob Reyes</b></P>
+
+                        <div id="Edit"><p>EDIT</p></div>
+                        <div id="Update"><p>UPDATE</p></div>
+                        <div id="Delete"><p>DELETE</p></div>
+                    
+                    </div>
+                    
                 `;
                 break;
             case 'clients':
@@ -110,5 +137,9 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             resultsContainer.textContent = 'No results found';
         }
+    }
+
+    if (contentId === 'Status-Tracker'){
+        
     }
 });

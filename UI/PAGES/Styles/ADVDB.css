@@ -210,6 +210,123 @@ body {
   margin: 20px 0; /* Add margin for spacing */
 }
 
+.To-file{
+  margin-top: 50px;
+}
+
+#TAXFILE {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+#TAXFILE div {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+#Start p {
+  font-size: 15px;
+  color: #000000;
+}
+
+#Start {
+  background: #7cff78;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  float: left;
+  margin-left: 120vh;
+  margin-top: -5vh;
+}
+
+#Start div {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+
+}
+
+#Start p {
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Edit {
+  background: #ffa52e;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  float: left;
+  margin-left: 120vh;
+  margin-top: -5vh;
+}
+
+#Edit div {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+
+}
+
+#Edit p {
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Update {
+  background: #f3ff49;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  float: left;
+  margin-left: 133vh;
+  margin-top: -5.5vh;
+}
+
+#Update div {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+
+}
+
+#Update p {
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#Delete {
+  background: #ff2929;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  float: left;
+  margin-left: 157vh;
+  margin-top: -5.6vh;
+}
+
+#Delete p {
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bolder;
+}
+
+
 #search-input {
   padding: 10px;
   border: 1px solid #2e4ead;
