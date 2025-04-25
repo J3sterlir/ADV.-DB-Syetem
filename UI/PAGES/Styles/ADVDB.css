@@ -8,7 +8,8 @@
 }
 
 body {
-  background: #e1ecf2;
+  background: #ffffff;
+  background: radial-gradient(circle,rgb(255, 255, 255) 28%, rgb(204, 204, 204) 69%, rgba(128, 128, 128, 0.685) 100%), url("/ADV.-DB-System/UI/Images/BG_IMAGE.avif");
 }
 
 .wrapper {
