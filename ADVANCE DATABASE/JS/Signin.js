@@ -5,7 +5,7 @@ document.getElementById('EmployeeLogin').addEventListener('submit', (e) => {
     const password = document.getElementById('password').value;
 
     if (email === 'Employee' && password === 'admin123') {
-        window.location.href = '/HTML/index.html';
+        window.location.href = '/ADVANCE DATABASE/HTML/index.html';
     }
     else {
         alert('Invalid email or password. Please try again.');

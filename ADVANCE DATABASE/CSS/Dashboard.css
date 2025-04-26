@@ -26,7 +26,7 @@ body{
     grid-template-columns: auto 1fr;
 }
 body{
-    background: radial-gradient(circle,rgba(0, 45, 88, 1) 0%, rgba(0, 45, 88, 0.938) 50%, rgba(0, 45, 88, 0.76) 100%), url("/Images/BG_IMAGE.avif");
+    background: radial-gradient(circle,rgba(0, 45, 88, 1) 0%, rgba(0, 45, 88, 0.938) 50%, rgba(0, 45, 88, 0.76) 100%), url("../Images/BG_IMAGE.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
